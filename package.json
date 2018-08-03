@@ -4,8 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --output-hashing=none && yarn package",
-    "package": "mkdir -p ../../dist/component/interact && cat dist/interact/{runtime,polyfills,main}.js > ../../dist/component/interact/interact.js",
+    "build": "ng build --prod --output-hashing=none",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
